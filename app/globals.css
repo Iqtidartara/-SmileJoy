@@ -89,6 +89,9 @@ border: 1px solid #FF7352;
 .borderbutton2{
 border-radius: 0.5rem;
 border: 1px solid #FF7352;}
+.borderbuttoncontact{
+  border-radius: 100;
+  border: 1px solid #FF7352;}
 .option{
 border-radius: 15.5px;
 border: 1.938px solid #FFECE2;

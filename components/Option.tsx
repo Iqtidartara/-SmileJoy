@@ -3,8 +3,8 @@ import React from "react";
 
 const Option = () => {
   return (
-    <section className="w-full md:-mt-20 mt-4 md:px-0 px-2">
-      <main className="max-w-[70rem] mx-auto px-[2rem] py-[2rem]  flex flex-col sm:flex-row md:flex-row md:items-center items-start justify-between gap-12 option -z-10  ">
+    <section className="w-full md:-mt-20 mt-4 md:px-10 px-2">
+      <main className="max-w-[90rem] mx-auto px-[2rem] py-[2rem]  flex flex-col sm:flex-row md:flex-row md:items-center items-start justify-between gap-12 option  ">
         <div className="flex flex-col items-start justify-center">
           <h1 className=" text-[#0A1834] text-[1.45313rem] font-semibold leading-[135%] tracking-[-0.03025rem]">
             Working

@@ -8,7 +8,7 @@ const Carousel = () => {
         <main className='max-w-[90rem] mx-auto md:px-12 px-4'>
             <div className='flex  items-center justify-between '> 
         <div>
-            <p className='md:text-[1.25rem] text-[1rem] text-[#FF6947] font-[400] leading-normal'>Meet our Doctors</p>
+            <p className='md:text-[1.25rem] text-[1rem] text-[#FF6947] font-[400] leading-normal md:mb-4 mb-0'>Meet our Doctors</p>
             <h1 className='md:text-[2.625rem] text-[1.3rem] font-[700] textcolor leading-[133.333%] tracking-[0.0525rem]'>Meet Our Team.<br/> Your Health Matters.</h1>
         </div>
         <div className='flex gap-2 items-start'>
@@ -28,15 +28,16 @@ const Carousel = () => {
         <div className='bg-[#FFECE2] rounded-[1.64544rem] max-w-[77.5rem] mt-[2rem]'>
 
         <div className="md:py-[34px] py-6 md:px-[4rem] px-4 flex flex-col md:flex-row sm:flex-col md:gap-[100px] items-end gap-12">
-        <div><Image
+        <div className='md:w-1/2 w-full flex items-center justify-center'>
+          <Image
             src="/team.png"
             alt="tara"
             width={600}
             height={600}
-            className="md:w-[400px] md:h-[400px] object-cover"
+            className="md:w-[400px] md:h-[450px] object-cover"
           />
         </div>
-        <div className="md:w-1/2 w-full flex flex-col items-start justify-center gap-2">
+        <div className="md:w-1/2 w-full flex flex-col items-start justify-center gap-2 md:py-10 py-0">
           <p className="text-[#FF6947] md:text-[1.25rem] tex-[.9rem] font-[400] leading-normal">
           Medical Specialist
           </p>
