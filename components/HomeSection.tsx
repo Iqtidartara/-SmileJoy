@@ -1,18 +1,19 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
+import Option from "./Option";
 
 const HomeSection = () => {
   return (
-    <section className="bg-[#FFECE2] w-full ">
-      <main className="max-w-[90rem] mx-auto flex flex-col md:flex-row items-start justify-between ">
+    <section className="w-full ">
+      <main className="max-w-[90rem] mx-auto flex flex-col md:flex-row items-start justify-between bg-[#FFECE2]">
         {/* hero section wala text */}
         <div className="md:px-12 px-4 py-20 md:w-1/2 w-full">
-          <h1 className="md:text-[3.25rem] text-[2rem] md:leading-[128.846%] leading-[1.3] font-[800] text-[#181443] tracking-[0.0325rem] md:text-start text-center">
+          <h1 className="md:text-[3.25rem] text-[2rem] md:leading-[128.846%] leading-[1.3] font-[700] text-[#181443] tracking-[0.0325rem] md:text-start text-center">
             Transforming Your Smile into a Timeless{" "}
             <span className="text-[#FF6947]">Masterpiece</span> of Joy
           </h1>
-          <p className="md:text-[1.125rem] text-[1rem] text-[#625D7E] text-center md:text-start font-[400] md:leading-[205.556%] leading-normal md:mt-[1.88rem] mt-2">
+          <p className="md:text-[1.125rem] text-[1rem] text-[#625D7E] text-center md:text-start md:font-[500] font-[400] md:leading-[205.556%] leading-normal md:mt-[1.88rem] mt-2">
             Discover the joy of a perfect smile at SmileJoy! Expert care meets
             artistic flair to create a smile that&apos;s uniquely you. Brighten
             your world with a SmileJoy smile
@@ -63,17 +64,18 @@ const HomeSection = () => {
           </div>
         </div>
         {/* hero image make it responsive for all size of screens. */}
-        <div className="md:w-1/2 w-full flex justify-end items-start ">
+        <div className="md:w-1/2  w-full flex justify-center items-center">
           <Image
 
             src="/hero.png"
             alt="hero"
             width={769}
             height={865}
-            className="w-[600px] h-[800px]"
+            
           />
         </div>
       </main>
+      <Option />
     </section>
   );
 };

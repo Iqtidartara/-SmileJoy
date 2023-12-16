@@ -76,7 +76,9 @@
     @apply bg-background text-foreground;
   }
 }
-
+.pcolor{
+  color: var(--para-color, #625D7E)
+}
 .textcolor{
   color: var(--main-heading-color, #333); 
 }

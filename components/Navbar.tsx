@@ -13,10 +13,10 @@ const Navbar = () => {
   ];
   return (
     <section className="w-full bg-[#fff]">
-      <main className="max-w-[80rem] mx-auto px-4 py-4 ">
+      <main className="max-w-[90rem] mx-auto px-4 py-4 ">
         <div className="flex items-center justify-between"> 
-        <div className="flex items-center gap-40">
-          <h1 className="md:text-[1.875rem] text-[1.4rem]  font-[800] leading-normal textcolor">
+        <div className="flex items-center md:gap-40 gap-14">
+          <h1 className="md:text-[1.875rem] text-[1.4rem]  font-[700] leading-normal textcolor">
             SmileJoy
           </h1>
 
