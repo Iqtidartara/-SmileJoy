@@ -5,7 +5,7 @@ import Option from "./Option";
 
 const HomeSection = () => {
   return (
-    <section className="w-full ">
+    <section className="w-full">
       <main className="max-w-[90rem] mx-auto flex flex-col md:flex-row items-start justify-between bg-[#FFECE2]">
         {/* hero section wala text */}
         <div className="md:px-12 px-4 py-20 md:w-1/2 w-full">
@@ -29,7 +29,7 @@ const HomeSection = () => {
               variant="ghost"
               className="md:px-12 md:py-8 py-7 font-[700] text-[1rem] leading-[150%] rounded-[10px] bg-[#FFECE2] border textcolor gap-2 borderbutton"
             >
-              <Image src="/callhome.png" alt="phone" width={20} height={20} />{" "}
+              <Image src="/callmehunter.png" alt="phone" width={20} height={20} />{" "}
               940-394-3344
             </Button>
           </div>
@@ -51,7 +51,7 @@ const HomeSection = () => {
 
             <div className="flex items-center justify-center gap-[20px] ">
               <Image
-                src="/heroicon.png"
+                src="/adress.png"
                 alt="location"
                 width={51}
                 height={51}
@@ -64,7 +64,7 @@ const HomeSection = () => {
           </div>
         </div>
         {/* hero image make it responsive for all size of screens. */}
-        <div className="md:w-1/2  w-full flex justify-center items-center">
+        <div className="md:w-1/2  w-full flex justify-center items-center ">
           <Image
 
             src="/hero.png"
