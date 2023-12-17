@@ -34,7 +34,7 @@ const HomeSection = () => {
             </Button>
           </div>
           {/* location and timer div */}
-          <div className="flex flex-col md:flex-row gap-[17px] md:items-center items-start md:mt-[2.5rem] mt-6 ">
+          <div className="flex flex-col md:flex-row gap-[17px] md:items-center items-start md:mt-[2.5rem] mt-10 ">
             {/* location */}
             <div className="flex items-center justify-center gap-[20px]">
               <Image
@@ -49,7 +49,7 @@ const HomeSection = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-center gap-[20px]">
+            <div className="flex items-center justify-center gap-[20px] ">
               <Image
                 src="/heroicon.png"
                 alt="location"
@@ -57,8 +57,8 @@ const HomeSection = () => {
                 height={51}
               />
               <div className="flex flex-col font-[700] text-[0.96125rem] leading-[150%] textcolor">
-                <p>Address</p>
-                <p>Brandenburgische Str. 87</p>
+              <p>Opening Hours</p>
+                <p>Mon-Fri 8:00 - 16:00</p>
               </div>
             </div>
           </div>

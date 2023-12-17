@@ -6,22 +6,23 @@ const Carousel = () => {
   return (
     <section className='w-full'>
         <main className='max-w-[90rem] mx-auto md:px-12 px-4'>
-            <div className='flex  items-center justify-between '> 
+            <div className='flex flex-col md:flex-row  items-center justify-between '> 
         <div>
-            <p className='md:text-[1.25rem] text-[1rem] text-[#FF6947] font-[400] leading-normal md:mb-4 mb-0'>Meet our Doctors</p>
-            <h1 className='md:text-[2.625rem] text-[1.3rem] font-[700] textcolor leading-[133.333%] tracking-[0.0525rem]'>Meet Our Team.<br/> Your Health Matters.</h1>
+            <p className='md:text-[1.25rem] text-[1.25rem] text-[#FF6947] font-[400] leading-normal md:mb-4 mb-0 md:text-start text-center'>Meet our Doctors</p>
+            <h1 className='md:text-[2.625rem] text-[2rem] font-[700] textcolor leading-[133.333%] tracking-[0.0525rem] text-center md:text-start md:mt-0 mt-3'>Meet Our Team.<br/> Your Health Matters.</h1>
         </div>
-        <div className='flex gap-2 items-start'>
+        <div className='flex md:gap-2 gap-56 items-start md:mt-0 mt-6'>
            <Image 
            src="/left.png"
            width={51}
            height={51}
-           alt='carosel'/>
+           alt='carosel' className='md:w-[50px] md:h-[50px] w-[30px] h-[30px] '/>
             <Image 
            src="/right.png"
            width={51}
            height={51}
-           alt='carosel'/>
+           alt='carosel'
+           className='md:w-[50px] md:h-[50px] w-[30px] h-[30px] '/>
         </div>
         </div>
 {/* carouodsel card */}

@@ -54,7 +54,7 @@ const Services = () => {
 <div className='className=" grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1  gap-14 mt-16 max-w-[77.46806rem]'>
 {cardData.map((items ,index) => (
 
-<div key={index}  className="inline-flex flex-col items-center md:gap-5 gap-2 px-8">
+<div key={index}  className="inline-flex flex-col items-center md:gap-5 gap-2 ">
     <Image
       src={items.url}
       alt="doctor"
@@ -65,7 +65,7 @@ height={107}
     <h2 className='text-[1.5rem] font-[600] md:leading-[111.833%] leading-normal tracking-[0.02906rem] text-[#333] text-center'>
       {items.title}
     </h2>
-    <p className='text-[#625D7E] font-[400] md:leading-[166.684%] leading-normal text-[1.06244rem] text-center'>
+    <p className='text-[#625D7E] font-[400] md:leading-[166.684%] leading-normal text-[1.06244rem] text-center md:px-0 px-8 '>
       {" "}
       {items.description}
     </p>
