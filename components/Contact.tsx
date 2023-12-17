@@ -40,23 +40,24 @@ const Contact = () => {
         <div className="bg-[#FFFDF9] rounded-[1.5rem] px-4 py-12">
       <h1 className="text-[2rem] font-[700] text-[#000] leading-[125%] text-center md:px-10 px-2">Schedule an appointment</h1>
       <form method="POST" action="#">
-        <div className="mt-[4rem]">
+        <div className="mt-[4rem] px-4">
           <label className="text-[#2F2F30] text-[1.25rem] font-[500] leading-[120%]">FullName</label><br/>
-          <input className="px-2 py-4 rounded-[16px] border border-[#ECEBE7] w-full mt-2" type="text" name="fullname" placeholder="fullname" />
+          <input className="px-6 py-4 rounded-[16px] border border-[#ECEBE7] w-full mt-2" type="text" name="fullname" placeholder="fullname" />
         </div>
 
-        <div className="mt-[2rem]">
+        <div className="mt-[2rem] px-4">
           <label className="text-[#2F2F30] text-[1.25rem] font-[500] leading-[120%]">Email</label><br/>
-          <input className="px-2 py-4 rounded-[16px] border border-[#ECEBE7] w-full mt-2" type="email" name="Email" placeholder="email" />
+          <input className="px-6 py-4 rounded-[16px] border border-[#ECEBE7] w-full mt-2" type="email" name="Email" placeholder="email" />
         </div>
-        <div className="mt-[2rem]">
+        <div className="mt-[2rem] px-4">
           <label className="text-[#2F2F30] text-[1.25rem] font-[500] leading-[120%]">Contact</label><br/>
-          <input className="px-2 py-4 rounded-[16px] border border-[#ECEBE7] w-full mt-2" type="contact" name="fullname" placeholder="1-234-567-891" />
+          <input className="px-6 py-4 rounded-[16px] border border-[#ECEBE7] w-full mt-2 " type="contact" name="fullname" placeholder="1-234-567-891" />
         </div>
-
+        <div className="mt-[2rem] px-4">
         <Button className="md:px-6 py-8 px-4 font-[500] md:text-[1.375rem] text-[0.978rem] leading-normal rounded-full w-full mt-[2rem]">
         Schedule now
           </Button>
+          </div>
       </form>
     </div>
   
