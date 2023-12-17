@@ -48,13 +48,13 @@ const Services = () => {
 
 <div>
     <p className='md:text-[1.25rem] text-[1rem] text-[#FF6947] font-[400] leading-normal text-center md:mb-6 mb-0'>Services</p>
-    <h2 className='textcolor md:text-[2.625rem] text-[2rem] font-[700] md:leading-[133.333%] leading-normal tracking-[0.0525rem] text-center'>Your Doctor Services for <br className='md:block hidden'/> Health and Wellness</h2>
+    <h2 className='textcolor md:text-[2.625rem] text-[2rem] font-[700] md:leading-[133.333%] leading-[1] tracking-[0.0525rem] text-center md:mt-auto mt-4'>Your Doctor Services for <br className='md:block hidden'/> Health and Wellness</h2>
 </div>
 {/* cards of services */}
 <div className='className=" grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1  gap-14 mt-16 max-w-[77.46806rem]'>
 {cardData.map((items ,index) => (
 
-<div key={index}  className="inline-flex flex-col items-center md:gap-5 gap-2 px-6">
+<div key={index}  className="inline-flex flex-col items-center md:gap-5 gap-2 px-8">
     <Image
       src={items.url}
       alt="doctor"
@@ -69,7 +69,7 @@ height={107}
       {" "}
       {items.description}
     </p>
-    <Link href={"#"} className='text-[#F46029] font-[500] text-[0.845rem] md:leading-[125%] leading-normal uppercase'>Learn more</Link>
+    
   </div>
 ))}
 

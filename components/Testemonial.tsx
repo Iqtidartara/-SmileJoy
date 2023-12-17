@@ -36,7 +36,7 @@ const Testemonial = () => {
     ]
   return (
   <section className='w-full bg-[#FFECE2]'>
-    <main className='mx-auto max-w-[90rem] md:px-0 px-4 md:py-16 py-10'>
+    <main className='mx-auto max-w-[90rem] px-0  md:py-16 py-10'>
         <div className='text-center'>
         <p className="text-[#FF6947] text-[1.25rem] font-[400] leading-normal md:mb-4 mb-0">
         The SmileJoy Approach

@@ -10,7 +10,7 @@ import {
 const Faq = () => {
   return (
     <section className='w-full'>
-<main className='mx-auto max-w-[90rem] md:px-32 px-4 md:py-[8.66rem] py-[3rem] flex flex-col md:flex-row items-start justify-start '>
+<main className='mx-auto max-w-[90rem] md:px-32 px-4 md:py-[8.66rem] py-[3rem] flex flex-col md:flex-row items-start justify-start md:gap-0 gap-16'>
  
     <div className='md:w-1/2 w-full '>
         <h1 className='textcolor font-[700] md:text-[3rem] text-[2rem] tracking-[0.06rem] md:leading-[125%] leading-normal md:text-start text-center'>Everything you <br/> need to know</h1>

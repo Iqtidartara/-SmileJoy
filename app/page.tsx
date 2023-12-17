@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import NewComponent from "@/components/Carousel";
+import Carousel from "@/components/Carousel";
 import Contact from "@/components/Contact";
 import Faq from "@/components/Faq's";
 import HomeSection from "@/components/HomeSection";
@@ -13,7 +13,7 @@ export default function Home() {
   <main>
 <HomeSection/>
 <About />
-<NewComponent />
+<Carousel />
 <Services/>
 <Contact/>
 <Smile />
