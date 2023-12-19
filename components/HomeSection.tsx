@@ -5,7 +5,7 @@ import Option from "./Option";
 
 const HomeSection = () => {
   return (
-    <section className="w-full relative">
+    <section className="w-full md:relative">
       <main className="max-w-[90rem] mx-auto py-8 md:py-20">
       <div
        className="flex flex-col md:flex-row items-start justify-between bg-[#FFECE2]">
