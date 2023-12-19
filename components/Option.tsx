@@ -3,7 +3,7 @@ import React from "react";
 
 const Option = () => {
   return (
-    <section className="w-full md:-mt-20 mt-4 md:px-10 px-2 md:absolute left-0 top-[760px] ">
+    <section className="w-full md:-mt-20 mt-4   md:px-10 px-2 md:absolute  left-0 top-[760px] ">
       <main className="max-w-[90rem] mx-auto px-[2rem] py-[2rem]  flex flex-col sm:flex-row md:flex-row md:items-center items-start justify-between gap-12 option  ">
         <div className="flex flex-col items-start justify-center">
          
@@ -38,6 +38,14 @@ const Option = () => {
           </div>
           <div className="flex items-center justify-center gap-[15px] mt-[3rem]">
             <Image src="/boking.png" alt="timer" width={250} height={250} className="w-[29px] h-[29px]"/>
+            <div className="flex flex-col items-start justify-start ">
+              <h2 className="text-[#354158] text-[0.72656rem] font-[600]">
+               Calender
+              </h2>
+              <h2 className="text-[0.96875rem] font-[700] tracking-[-0.01213rem] leading-[170%] ">
+                14-12-2023
+              </h2>
+            </div>
           </div>
         </div>
         <div className="flex flex-col items-start justify-center">
