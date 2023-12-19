@@ -11,7 +11,7 @@ const About = () => {
             alt="tara"
             width={600}
             height={600}
-            className="md:w-full md:h-[519px] w-fit h-fit"
+            className="md:w-full md:h-[519px] w-full "
           />
         </div>
         <div className="md:w-1/2 w-full">

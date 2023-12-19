@@ -6,7 +6,9 @@ import Option from "./Option";
 const HomeSection = () => {
   return (
     <section className="w-full">
-      <main className="max-w-[90rem] mx-auto flex flex-col md:flex-row items-start justify-between bg-[#FFECE2]">
+      <main className="max-w-[90rem] mx-auto py-8 md:py-20">
+      <div
+       className="flex flex-col md:flex-row items-start justify-between bg-[#FFECE2]">
         {/* hero section wala text */}
         <div className="md:px-12 px-4 py-20 md:w-1/2 w-full">
           <h1 className="md:text-[3.25rem] text-[2rem] md:leading-[128.846%] leading-[1.3] font-[700] text-[#181443] tracking-[0.0325rem] md:text-start text-center">
@@ -74,8 +76,9 @@ const HomeSection = () => {
             
           />
         </div>
-      </main>
+      </div>
       <Option />
+      </main>
     </section>
   );
 };
