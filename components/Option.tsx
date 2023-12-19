@@ -3,7 +3,7 @@ import React from "react";
 
 const Option = () => {
   return (
-    <section className="w-full md:-mt-20 mt-4 md:px-10 px-2 absolute ">
+    <section className="w-full md:-mt-20 mt-4 md:px-10 px-2 md:absolute ">
       <main className="max-w-[90rem] mx-auto px-[2rem] py-[2rem]  flex flex-col sm:flex-row md:flex-row md:items-center items-start justify-between gap-12 option  ">
         <div className="flex flex-col items-start justify-center">
          
