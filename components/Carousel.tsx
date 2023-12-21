@@ -2,6 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
 
+
+
+
+
 const Carousel = () => {
   return (
     <section className='w-full'>
@@ -59,8 +63,9 @@ const Carousel = () => {
 
         </div>
         <div className=' flex items-center justify-center cursor-pointer   '>
-           <h1 className='text-[#FF6947] font-bold text-[55px] '>_</h1>
-        <h1 className='text-[#052258] font-bold text-[55px] mt-3.5'>..</h1></div>
+           <h1 className='text-[#FF6947] font-bold text-[55px]'>_</h1>
+        <h1 className='text-[#052258] font-bold text-[55px] mt-3.5 '>..</h1></div>
+        
         </main>
     </section>
   )
