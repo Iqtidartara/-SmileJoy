@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import * as React from "react";
 
@@ -9,7 +10,9 @@ function Footer() {
       <header className="flex w-full max-w-7xl flex-col items-stretch max-md:max-w-full">
         <div className="flex w-full items-stretch justify-between gap-5 px-0.5 max-md:max-w-full max-md:flex-wrap">
           <div className="items-stretch flex flex-col">
-            <h1 className="text-gray-200 text-3xl font-semibold whitespace-nowrap">SmileJoy</h1>
+            <Image src="/footer.png" alt="footer" width={300}
+            height={49} 
+            className="w-fit h-[49px]"/>
             <p className="justify-center text-rose-100 text-xs font-medium leading-5 tracking-normal whitespace-nowrap mt-2">
               We bring smile on your face
             </p>

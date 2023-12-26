@@ -98,3 +98,13 @@ border: 1.938px solid #FFECE2;
 background: #FFF;
 box-shadow: 0px 7.75px 15.5px 0px rgba(0, 0, 0, 0.08), 0px 0px 3.875px 0px rgba(0, 0, 0, 0.04);
 }
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
