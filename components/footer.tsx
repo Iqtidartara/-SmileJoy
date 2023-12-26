@@ -5,7 +5,7 @@ import * as React from "react";
 
 function Footer() {
   return (
-    <div className="bg-slate-900 flex flex-col justify-center items-center px-16 py-10 max-md:px-5">
+    <div className="bg-[#1E0000] flex flex-col justify-center items-center px-16 py-10 max-md:px-5">
       <header className="flex w-full max-w-7xl flex-col items-stretch max-md:max-w-full">
         <div className="flex w-full items-stretch justify-between gap-5 px-0.5 max-md:max-w-full max-md:flex-wrap">
           <div className="items-stretch flex flex-col">

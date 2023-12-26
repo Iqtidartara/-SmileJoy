@@ -3,6 +3,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,9 +17,10 @@ const Navbar = () => {
       <main className="max-w-[90rem] mx-auto px-4 py-4 ">
         <div className="flex items-center justify-between md:px-10 sm:px-10 px-0"> 
         <div className="flex items-center md:gap-40 gap-14">
-          <h1 className="md:text-[1.875rem] text-[1.4rem]  font-[700] leading-normal textcolor">
-            SmileJoy
-          </h1>
+          <Image src={"/logo.png"} alt="logo" width={132}
+          height={50}  />
+            
+          
 
           <ul className={`hidden sm:flex md:gap-x-14 sm:gap-10 gap-6 ${isOpen ? "block" : ""}`}>
             {links.map((link, index) => (
