@@ -40,7 +40,7 @@ const Slider = () => {
                 width={51}
                 height={51}
                 alt="carousel"
-                className="md:w-[50px] md:h-[50px] w-[30px] h-[30px]"
+                className="md:w-[50px] md:h-[50px] w-[30px] h-[30px]  md:block hidden"
               />
             </button>
             <button onClick={nextSlide}>
@@ -49,7 +49,7 @@ const Slider = () => {
                 width={51}
                 height={51}
                 alt="carousel"
-                className="md:w-[50px] md:h-[50px] w-[30px] h-[30px]"
+                className="md:w-[50px] md:h-[50px] w-[30px] h-[30px] md:block hidden"
               />
             </button>
           </div>
