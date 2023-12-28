@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <section className="bg-[#FFECE2] w-full">
+    <section className="bg-[#FFECE2] w-full"  id="contact-section">
       <main className="mx-auto max-w-[90rem] px-4 flex flex-col md:flex-row items-center justify-center py-20 gap-10">
         <div className="flex flex-col items-start justify-center md:w-1/2 w-full md:px-12 px-4 ">
           <h1 className="md:text-[3rem] text-[2rem] textcolor leading-normal tracking-[0.06rem] font-[700]">

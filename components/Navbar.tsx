@@ -87,18 +87,22 @@ const Header = () => {
               </div>
               {/* mobile screen button */}
               <div className="mt-6 flex flex-col items-center text-center gap-2">
+              <Link href="#contact-section" passHref>
               <Button className="bg-[#FF7352] md:px-6 md:py-6 px-4 py-4 font-[500] text-[0.93519rem] leading-normal rounded-[10px] w-full">
             Book now
           </Button>
+          </Link>
               </div>
             </div>
           </div>
         </div>
         {/* desktop/tab screen button  */}
         <div className="hidden sm:block">
+        <Link href="#contact-section" passHref>
           <Button className="bg-[#FF7352] md:px-6 md:py-6 px-4 py-4 font-[500] text-[0.93519rem] leading-normal rounded-[10px]">
             Book now
           </Button>
+          </Link>
         </div>
       </Popover>
     </div>

@@ -2,10 +2,15 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
 import Option from "./Option";
+import Link from "next/link";
+
+
+
 
 const HomeSection = () => {
+
   return (
-    <section className="w-full md:relative">
+    <section className="w-full md:relative" id="home-section">
       <main className="max-w-[90rem] mx-auto py-0 md:py-0">
       <div
        className="flex flex-col md:flex-row items-start justify-between bg-[#FFECE2]">
@@ -15,7 +20,7 @@ const HomeSection = () => {
             Transforming Your Smile into a Timeless{" "}
             <span className="text-[#FF6947]">Masterpiece</span> of Joy
           </h1>
-          <p className="md:text-[1.125rem] text-[.9rem] text-[#625D7E] text-center md:text-start md:font-[500] font-[400] md:leading-[205.556%] leading-normal md:mt-[1.88rem] mt-2">
+          <p className="md:text-[1.125rem] text-[1rem] text-[#625D7E] text-center md:text-start md:font-[500] font-[400] md:leading-[205.556%] leading-normal md:mt-[1.88rem] mt-2">
             Discover the joy of a perfect smile at SmileJoy! Expert care meets
             artistic flair to create a smile that&apos;s uniquely you. Brighten
             your world with a SmileJoy smile
@@ -23,10 +28,12 @@ const HomeSection = () => {
 
           {/* two Buttons whish is need  */}
           <div className="flex flex-col md:flex-row gap-[25px] md:items-center md:mt-[3rem] mt-6 w-full">
-            <Button className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7  font-[500] text-[0.93519rem] leading-[150%] rounded-[10px]
+          <Link href="#contact-section" passHref>
+            <Button  className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7  font-[500] text-[0.93519rem] leading-[150%] rounded-[10px]
             ">
               Book An Appointment
             </Button>
+          </Link>
             <Button
               variant="ghost"
               className="md:px-12 md:py-8 py-7 font-[700] text-[1rem] leading-[150%] rounded-[10px] bg-[#FFECE2] border textcolor gap-2 borderbutton"

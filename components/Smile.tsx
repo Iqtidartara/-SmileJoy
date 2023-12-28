@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Smile = () => {
   return (
@@ -17,12 +18,14 @@ const Smile = () => {
           <p className="md:text-[1.25rem] text-[1rem] font-[400] leading-[185%] pcolor mt-[1.31rem]">
           At SmileJoy, every smile is a masterpiece. Our approach is tailored to your individual needs, ensuring you get the most effective and comfortable treatment. We combine state-of-the-art technology with a warm, personal touch, making your journey to a perfect smile as enjoyable as the results.
           </p>
+          <Link href="#contact-section" passHref>
           <Button
             className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7 font-[500] text-[0.93519rem] leading-[150%] rounded-[10px] md:mt-[3rem] mt-8 w-full md:w-auto"
           >
             
             Book An Appointment
           </Button>
+          </Link>
         </div>
         <div><Image
             src="/personalized.png"

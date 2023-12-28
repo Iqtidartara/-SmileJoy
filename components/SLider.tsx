@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Slider = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel();
@@ -80,9 +81,11 @@ const Slider = () => {
                             specialists in the field. Trust our seasoned
                             professional for exceptional care and results.
                           </p>
+                         <Link href="#contact-section" passHref>
                           <Button className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7 font-[500] text-[0.93519rem] leading-[150%] rounded-[10px]  w-full md:w-auto mt-4 md:mt-10 ">
                             Book An Appointment
                           </Button>
+                          </Link>
                         </div>
                       </div>
          </div></div>
@@ -109,9 +112,11 @@ const Slider = () => {
                             specialists in the field. Trust our seasoned
                             professional for exceptional care and results.
                           </p>
+                          <Link href="#contact-section" passHref>
                           <Button className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7 font-[500] text-[0.93519rem] leading-[150%] rounded-[10px]  w-full md:w-auto mt-4 md:mt-10 ">
                             Book An Appointment
                           </Button>
+                          </Link>
                         </div>
                       </div>
          </div></div>
@@ -138,9 +143,10 @@ const Slider = () => {
                             specialists in the field. Trust our seasoned
                             professional for exceptional care and results.
                           </p>
+                          <Link href="#contact-section" passHref>
                           <Button className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7 font-[500] text-[0.93519rem] leading-[150%] rounded-[10px]  w-full md:w-auto mt-4 md:mt-10 ">
                             Book An Appointment
-                          </Button>
+                          </Button></Link>
                         </div>
                       </div>
          </div></div>

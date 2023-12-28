@@ -18,7 +18,7 @@ function Footer() {
             </p>
           </div>
           <ul className="justify-between items-start self-center flex gap-5 my-auto py-1 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
-            <Link href="#" className="justify-center text-white text-xs leading-5 tracking-normal self-center my-auto">
+            <Link href="#about" className="justify-center text-white text-xs leading-5 tracking-normal self-center my-auto">
               About
             </Link>
             <Link href="#"  className="justify-center text-white text-xs leading-5 tracking-normal self-stretch" >

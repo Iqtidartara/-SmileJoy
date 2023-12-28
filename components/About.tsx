@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -29,12 +30,14 @@ const About = () => {
             potential of your smile, enhancing both your appearance and your
             wellbeing
           </p>
+          <Link href="#contact-section" passHref>
           <Button
             className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7 font-[500] text-[0.93519rem] leading-[150%] rounded-[10px] md:mt-[3rem] mt-8 w-full md:w-auto"
           >
             
             Book An Appointment
           </Button>
+          </Link>
         </div>
       </main>
     </section>
