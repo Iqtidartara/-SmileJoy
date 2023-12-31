@@ -11,7 +11,7 @@ import Slider from "@/components/SLider";
 
 export default function Home() {
   return (
-  <main>
+  <main >
 <HomeSection/>
 <About />
 <Slider />

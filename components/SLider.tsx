@@ -19,6 +19,13 @@ const doctors: Doctor[] = [
     role: "Experience excellence with one of the best medical specialists in the field. Trust our seasoned professional for exceptional care and results.",
     description: "Medical Specialist",
   },
+  {
+    title: "Medical Specialist",
+    name: "Dr. Sarah Davis",
+    role: "Experience excellence with one of the best medical specialists in the field. Trust our seasoned professional for exceptional care and results.",
+    description: "Medical Specialist",
+  },
+  
   // Add more doctors as needed
 ];
 
