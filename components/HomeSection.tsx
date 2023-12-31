@@ -28,12 +28,13 @@ const HomeSection = () => {
 
           {/* two Buttons whish is need  */}
           <div className="flex flex-col md:flex-row gap-[25px] md:items-center md:mt-[3rem] mt-6 w-full">
-          <Link href="#contact-section" passHref>
+          
             <Button  className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7  font-[500] text-[0.93519rem] leading-[150%] rounded-[10px]
-            ">
+            "><Link href="#contact-section" passHref>
               Book An Appointment
+              </Link>
             </Button>
-          </Link>
+          
             <Button
               variant="ghost"
               className="md:px-12 md:py-8 py-7 font-[700] text-[1rem] leading-[150%] rounded-[10px] bg-[#FFECE2] border textcolor gap-2 borderbutton"

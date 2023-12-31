@@ -8,6 +8,7 @@ import Testemonial from "@/components/Testemonial";
 import Footer from "@/components/footer";
 import Slider from "@/components/SLider";
 
+
 export default function Home() {
   return (
   <main>
@@ -20,6 +21,7 @@ export default function Home() {
 <Testemonial />
 <Faq />
 <Footer />
+
   </main>
   )
 }
