@@ -1,6 +1,26 @@
-import Image from 'next/image'
-import Link from 'next/link'
+// import { motion } from "framer-motion"
 import React from 'react'
+import Image from 'next/image'
+
+
+// const container = {
+//   hidden: { opacity: 1, scale: 0 },
+//   visible: {
+//     opacity: 1,
+//     scale: 1,
+//     transition: {
+//       delayChildren: 0.3,
+//       staggerChildren: 0.2
+//     }
+//   }
+// }
+// const item = {
+//   hidden: { y: 20, opacity: 0 },
+//   visible: {
+//     y: 0,
+//     opacity: 1
+//   }
+// };
 
 const Services = () => {
     const cardData = [
@@ -51,10 +71,15 @@ const Services = () => {
     <h2 className='textcolor md:text-[2.625rem] text-[2rem] font-[700] md:leading-[133.333%] leading-[1] tracking-[0.0525rem] text-center md:mt-auto mt-4'>Your Doctor Services for <br className='md:block hidden'/> Health and Wellness</h2>
 </div>
 {/* cards of services */}
-<div className='className=" grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1  gap-14 mt-16 max-w-[77.46806rem]'>
-{cardData.map((items ,index) => (
+<div
+// variants={container}
+// initial="hidden"
+// animate="visible"
 
-<div key={index}  className="inline-flex flex-col items-center md:gap-5 gap-2 ">
+className='container grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1  gap-14 mt-16 max-w-[77.46806rem]'>
+{cardData .map((items ,index) => (
+
+<div key={index}   className="inline-flex flex-col items-center md:gap-5 gap-2 ">
     <Image
       src={items.url}
       alt="doctor"
