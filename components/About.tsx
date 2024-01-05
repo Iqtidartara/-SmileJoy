@@ -6,13 +6,13 @@ import Link from "next/link";
 const About = () => {
   return (
     <section className="w-full ">
-      <main className="max-w-[90rem] mx-auto md:py-[146px] py-12 md:px-14 px-4 flex flex-col md:flex-row sm:flex-col md:gap-[100px] gap-12">
+      <main className="max-w-[90rem] mx-auto md:py-[250px] py-12 md:px-14 px-4 flex flex-col md:flex-row sm:flex-col md:gap-[100px] gap-12">
         <div><Image
             src="/about.png"
             alt="tara"
             width={600}
             height={600}
-            className="md:w-full md:h-[519px] w-full "
+            className="w-full md:h-[519px] "
           />
         </div>
         <div className="md:w-1/2 w-full">

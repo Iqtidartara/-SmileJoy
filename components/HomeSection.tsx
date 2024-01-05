@@ -1,10 +1,10 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
 import Option from "./Option";
 import Link from "next/link";
-
-
+import { motion} from 'framer-motion';
 
 
 const HomeSection = () => {
@@ -12,13 +12,18 @@ const HomeSection = () => {
   return (
     <section className="w-full md:relative" id="home-section">
       <main className="max-w-[90rem] mx-auto py-0 md:py-0">
-      <div
+      <motion.div
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: .5 }}
+      
        className="flex flex-col md:flex-row items-start justify-between bg-[#FFECE2]">
         {/* hero section wala text */}
         <div className="md:px-12 px-4 py-20 md:w-1/2 w-full">
-          <h1 className="md:text-[3.25rem] text-[1.8rem] md:leading-[128.846%] leading-[ 140%] font-[700] text-[#181443] tracking-[0.03988rem] md:text-start text-center">
+          <h1 
+          className="md:text-[3.25rem] text-[1.8rem] md:leading-[128.846%] leading-[ 140%] font-[700] text-[#181443] tracking-[0.03988rem] md:text-start text-center">
             Transforming Your Smile into a Timeless{" "}
-            <span className="text-[#FF6947]">Masterpiece</span> of Joy
+            <span className="text-[#FF6947] hover:animate-bounce cursor-pointer">Masterpiece</span> of Joy
           </h1>
           <p className="md:text-[1.125rem] text-[1rem] text-[#625D7E] text-center md:text-start md:font-[500] font-[400] md:leading-[205.556%] leading-normal md:mt-[1.88rem] mt-2">
             Discover the joy of a perfect smile at SmileJoy! Expert care meets
@@ -84,7 +89,7 @@ const HomeSection = () => {
             
           />
         </div>
-      </div>
+      </motion.div>
       <Option />
       </main>
     </section>
